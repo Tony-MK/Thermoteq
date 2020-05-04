@@ -78,9 +78,13 @@ WSGI_APPLICATION = 'thermoteq.wsgi.application'
 # https://docs.djangoproject.com/en/2.2/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    'default':{
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd7ttoq3v1v7tfa',
+        'HOST': 'ec2-46-137-156-205.eu-west-1.compute.amazonaws.com',
+        'USER': 'tmgopbjsagrrli',
+        'PORT': 5432,
+        'PASSWORD':'5b900fb82f30f1fadb13dc97dbe690c33e74a4ea9f1cac3da031916ccd9421f0',
     }
 }
 
