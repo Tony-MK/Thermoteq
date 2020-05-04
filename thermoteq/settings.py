@@ -25,7 +25,11 @@ SECRET_KEY = 'q56)a1x3kq_mu0&sy=cs7pm#(bzu5-5n)d6zslz-mm==*413$d'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "localhost",
+    "127.0.0.1",
+    "thermoteq.herokuapp.com",
+]
 
 
 # Application definition
